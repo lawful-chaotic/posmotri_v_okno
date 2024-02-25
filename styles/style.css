@@ -84,14 +84,17 @@ ol {
   align-items: center;
   width: fit-content;
 }
-.search-form__label:has(:focus-visible) {
+.search-form__label:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
-.search-form__label:has(:active) {
+.search-form__label:active {
   outline: none;
 }
-.search-form__label:has(.search-form__pseudo-checkbox):hover,
+.search-form__label:hover > .search-form__label-text{
+  text-decoration: underline;
+}
+
 .button:hover,
 .content__video-card:hover {
   text-decoration: underline;
@@ -139,7 +142,6 @@ ol {
   width: 19px;
   height: 19px;
   margin: 0 5px 0 0;
-  margin-right: 5px;
   padding: 0;
 }
 .search-form__pseudo-checkbox {
@@ -281,4 +283,3 @@ ol {
   height: 34px;
   cursor: pointer;
 }
-/*public*/
