@@ -84,9 +84,9 @@ ol {
   font-size: 18px;
 }
 
-.search-form__label :has(:focus-visible) {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 1px;}
+  outline-offset: 1px;} /*validator doesn't recognise*/
 
 .search-form__label {
   display: flex;
