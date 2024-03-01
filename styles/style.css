@@ -86,7 +86,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 1px;} /*validator doesn't recognise*/
+  outline-offset: 1px;} 
 
 .search-form__label {
   display: flex;
@@ -299,3 +299,4 @@ ol {
   height: 34px;
   cursor: pointer;
 }
+/* I AM SRIOUSLY CHANGING CODE*/
